@@ -1,0 +1,43 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/projects/pocketbook/bg.jpg");
+}
+.header{
+    text-align: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.header img{
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+}
+.container {
+  max-width: 940px;
+}
+.main{
+    color:white;
+    margin: 80px 0;
+}
+.btn{
+    border: 0px;
+    border-radius: 0px;
+    background-color: rgba(0,240,190,0.25);;
+    color: white;
+    margin-top: 20px;
+}
+.footer ul{
+    list-style: none;
+    padding: 0 20px;
+    margin-bottom: 80px;
+    color: white;
+}
+.footer ul li{
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 20px;
+}
